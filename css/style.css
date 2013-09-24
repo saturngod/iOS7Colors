@@ -1,0 +1,70 @@
+ #boxes div {
+        float: left;
+        margin: 8px;
+        display: inline;
+        width: 105px;
+        height: 100px;
+        cursor: pointer;
+    }
+    
+    #lightBlue {
+        background: #38cbf8;
+    }
+    #blue {
+        background: #3c81fa;
+    }
+    #yellow {
+        background: #f8c731;
+    }
+    #green {
+        background: #3cd86d;
+    }
+
+    #ornage {
+        background: #f69124;
+    }
+
+    #red {
+        background: #f53034;
+    }
+
+    #pink {
+        background: #f51f55;
+    }
+    #grey {
+        background: #8e8e93;
+    }
+
+    #cover {
+        position: absolute;;
+        width: 100%;
+        height: 100%;
+        background: #111;
+        z-index: 1111;
+        display: none;
+    }
+
+    #coverText {
+        color: #FFF;
+        font-size: 50px;
+        width: 100%;
+        margin-top: 200px;
+        padding: 10px;
+        text-align: center;
+        background: rgba(255,255,255,0.2);
+        height: 70px;
+        padding: 20px;
+        font-weight: bold;
+        border:none;
+        outline: none;
+    }
+
+    #coverText:focus {
+        border:none;
+        outline: none;
+    }
+
+    #nav {
+        
+        text-align: center;
+    }
